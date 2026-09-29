@@ -12,7 +12,7 @@ import com.example.curriculogic.ui.profile.ProfileFragment
 import com.example.curriculogic.ui.enroll.EnrollFragment
 import com.example.curriculogic.ui.schedule.ScheduleFragment
 import com.example.curriculogic.ui.ai.AiFragment
-
+import com.example.curriculogic.ui.plan.PlanFragment
 
 
 
@@ -39,8 +39,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_home -> selectedFragment = HomeFragment()
                 R.id.nav_curriculum -> selectedFragment = CurriculumFragment()
                 R.id.nav_ai -> selectedFragment = AiFragment()
-                R.id.nav_enroll -> selectedFragment = EnrollFragment()
-                R.id.nav_schedule -> selectedFragment = ScheduleFragment()
+                R.id.nav_plan -> selectedFragment = PlanFragment()
                 R.id.nav_profile -> selectedFragment = ProfileFragment()
             }
 

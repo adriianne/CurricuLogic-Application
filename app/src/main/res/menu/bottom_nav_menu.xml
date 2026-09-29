@@ -13,13 +13,9 @@
         android:title="AI Advisor"
         android:icon="@android:drawable/ic_menu_search" />
     <item
-        android:id="@+id/nav_enroll"
-        android:title="Enroll"
+        android:id="@+id/nav_plan"
+        android:title="Plan"
         android:icon="@android:drawable/ic_input_add" />
-    <item
-        android:id="@+id/nav_schedule"
-        android:title="Schedule"
-        android:icon="@android:drawable/ic_menu_agenda" />
     <item
         android:id="@+id/nav_profile"
         android:title="Profile"
