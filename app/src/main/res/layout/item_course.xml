@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:elevation="2dp"
+    android:radius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCourseCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IT 101"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvCourseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduction to Computing"
+                android:textSize="14sp"
+                android:textColor="#757575" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvUnits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 Units"
+            android:textStyle="bold"
+            android:textColor="#3F51B5" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F6FA">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curriculum Map"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BSIT • AY 2026-2027"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+    <!-- Legend -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="1dp">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="#4CAF50"
+            android:layout_marginEnd="4dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passed"
+            android:textSize="11sp"
+            android:textColor="#757575"
+            android:layout_marginEnd="16dp" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="#3F51B5"
+            android:layout_marginEnd="4dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In Progress"
+            android:textSize="11sp"
+            android:textColor="#757575"
+            android:layout_marginEnd="16dp" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="#9E9E9E"
+            android:layout_marginEnd="4dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Locked"
+            android:textSize="11sp"
+            android:textColor="#757575" />
+    </LinearLayout>
+
+    <!-- Curriculum List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCurriculum"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp" />
+
+</LinearLayout>
